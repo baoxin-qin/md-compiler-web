@@ -1,12 +1,15 @@
 <script setup lang="ts">
+import { ref } from 'vue';
 import Editor from './components/Editor.vue';
 import Preview from './components/Preview.vue';
+
+const result = ref('');
 </script>
 
 <template>
 	<div class="container">
-		<Editor />
-		<Preview />
+		<Editor :result="result" @update="(val) => result = val"/>
+		<Preview :result="result"/>
 	</div>
 </template>
 
