@@ -20,4 +20,11 @@ const props = defineProps<PreviewProps>();
     padding: 0 10px;
     overflow: auto;
 }
+.title {
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
 </style>
+
+<style src="src/assets/markdown.css"></style>
