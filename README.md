@@ -11,6 +11,7 @@
 | TypeScript | 前端类型 |
 | Vite | 前端构建工具 |
 | CodeMirror | 简易版代码编辑器 |
+| html2pdf.js | HTML 转 PDF 工具 |
 
 ## 项目结构
 
